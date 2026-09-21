@@ -1,0 +1,13 @@
+.contact {
+    background-color: var(--color-bg-secondary);
+  }
+  
+  .contact__links {
+    display: flex;
+  
+    gap: 20px;
+  }
+  
+  .contact__links a {
+    color: var(--color-primary);
+  }

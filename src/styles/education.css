@@ -1,0 +1,23 @@
+.education {
+    background-color: var(--color-bg);
+  }
+  
+  .education__list {
+    display: grid;
+  
+    gap: 20px;
+  }
+  
+  .education__item {
+    padding: 25px;
+  
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+  
+    background-color: var(--color-bg-secondary);
+  }
+  
+  .education__item p,
+  .education__item span {
+    color: var(--color-text-secondary);
+  }
