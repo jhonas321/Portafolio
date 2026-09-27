@@ -1,0 +1,91 @@
+.certifications {
+    background-color: var(--color-bg);
+  }
+  
+  .certifications__grid {
+    position: relative;
+  
+    display: flex;
+    flex-direction: column;
+  
+    gap: 24px;
+  
+    padding-left: 35px;
+  }
+  
+  .certifications__grid::before {
+    content: "";
+  
+    position: absolute;
+  
+    left: 7px;
+    top: 10px;
+    bottom: 10px;
+  
+    width: 2px;
+  
+    background-color: var(--color-border);
+  }
+  
+  .certifications__card {
+    position: relative;
+  
+    padding: 22px 24px;
+  
+    background-color: var(--color-bg-secondary);
+  
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+  
+    transition:
+      transform 0.3s ease,
+      border-color 0.3s ease;
+  }
+  
+  .certifications__card::before {
+    content: "";
+  
+    position: absolute;
+  
+    width: 14px;
+    height: 14px;
+  
+    left: -35px;
+    top: 28px;
+  
+    border-radius: 50%;
+  
+    background-color: var(--color-primary);
+  
+    box-shadow:
+      0 0 0 4px rgba(56, 189, 248, 0.12);
+  }
+  
+  .certifications__card:hover {
+    transform: translateX(5px);
+  
+    border-color: rgba(56, 189, 248, 0.4);
+  }
+  
+  .certifications__date {
+    display: block;
+  
+    margin-bottom: 8px;
+  
+    color: var(--color-primary);
+  
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  
+  .certifications__title {
+    margin-bottom: 6px;
+  
+    color: var(--color-text);
+  
+    font-size: 1.15rem;
+  }
+  
+  .certifications__institution {
+    color: var(--color-text-secondary);
+  }

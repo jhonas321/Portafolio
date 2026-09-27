@@ -1,1 +1,15 @@
-export const skills = [];
+export const skills = [
+  { id: 1, name: "Java", icon: "java" },
+  { id: 2, name: "HTML", icon: "html" },
+  { id: 3, name: "CSS", icon: "css" },
+  { id: 4, name: "JavaScript", icon: "javascript" },
+  { id: 5, name: "React", icon: "react" },
+  { id: 6, name: "Python", icon: "python" },
+  { id: 7, name: "Haskell", icon: "haskell" },
+  { id: 8, name: "Git / GitHub", icon: "github" },
+  { id: 9, name: "PostgreSQL", icon: "postgresql" },
+  { id: 10, name: "SQL Server", icon: "database" },
+  { id: 11, name: "Postman", icon: "api" },
+  { id: 12, name: "Cypress", icon: "test" },
+  { id: 13, name: "Swagger", icon: "code" },
+];

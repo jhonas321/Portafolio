@@ -1,13 +1,147 @@
 .contact {
-    background-color: var(--color-bg-secondary);
+  background-color: var(--color-bg-secondary);
+}
+
+.contact__content {
+  display: grid;
+
+  grid-template-columns: 1fr 1.2fr;
+
+  gap: 60px;
+
+  align-items: start;
+}
+
+.contact__title {
+  margin-bottom: 15px;
+
+  color: var(--color-text);
+
+  font-size: 1.8rem;
+}
+
+.contact__description {
+  max-width: 450px;
+
+  margin-bottom: 20px;
+
+  color: var(--color-text-secondary);
+
+  line-height: 1.7;
+}
+
+.contact__location {
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+
+  color: var(--color-primary);
+
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.contact__links {
+  display: flex;
+  flex-direction: column;
+
+  gap: 12px;
+}
+
+.contact__link {
+  display: grid;
+
+  grid-template-columns: 45px 1fr auto;
+
+  align-items: center;
+
+  gap: 16px;
+
+  padding: 18px 20px;
+
+  background-color: var(--color-bg);
+
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.contact__link:hover {
+  transform: translateX(6px);
+
+  border-color: rgba(56, 189, 248, 0.4);
+
+  background-color: rgba(56, 189, 248, 0.03);
+}
+
+.contact__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 42px;
+  height: 42px;
+
+  border-radius: 10px;
+
+  background-color: rgba(56, 189, 248, 0.08);
+
+  color: var(--color-primary);
+
+  font-size: 1.25rem;
+}
+
+.contact__link-content {
+  display: flex;
+  flex-direction: column;
+
+  gap: 3px;
+}
+
+.contact__link-name {
+  color: var(--color-primary);
+
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.contact__link-value {
+  color: var(--color-text);
+
+  font-size: 0.95rem;
+}
+
+.contact__arrow {
+  color: var(--color-primary);
+
+  font-size: 1.3rem;
+
+  transition: transform 0.3s ease;
+}
+
+.contact__link:hover .contact__arrow {
+  transform: translateX(4px);
+}
+
+@media (max-width: 800px) {
+  .contact__content {
+    grid-template-columns: 1fr;
+
+    gap: 35px;
   }
-  
-  .contact__links {
-    display: flex;
-  
-    gap: 20px;
+}
+
+@media (max-width: 520px) {
+  .contact__link {
+    grid-template-columns: 42px 1fr auto;
   }
-  
-  .contact__links a {
-    color: var(--color-primary);
+
+  .contact__link-value {
+    word-break: break-word;
   }
+}

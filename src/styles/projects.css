@@ -1,11 +1,17 @@
 .projects {
-    background-color: var(--color-bg-secondary);
-  }
-  
+  background-color: var(--color-bg-secondary);
+}
+
+.projects__grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 24px;
+}
+
+@media (max-width: 800px) {
   .projects__grid {
-    display: grid;
-  
-    grid-template-columns: repeat(2, 1fr);
-  
-    gap: 25px;
+    grid-template-columns: 1fr;
   }
+}

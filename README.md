@@ -1,16 +1,96 @@
-# React + Vite
+# Portafolio Personal - Jonathan Choque Arancibia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portafolio web personal desarrollado para presentar mi perfil profesional, experiencia, formación, habilidades y proyectos.
 
-Currently, two official plugins are available:
+Desarrollado con **React, JavaScript, CSS y Vite**, utilizando una estructura basada en componentes reutilizables y diseño responsive.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Portafolio en línea:**  
+https://portafolio-jhona.netlify.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologías
 
-## Expanding the ESLint configuration
+- React
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- Git / GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Secciones
+
+- Inicio
+- Sobre mí
+- Habilidades
+- Proyectos
+- Experiencia
+- Formación
+- Certificaciones
+- Contacto
+- Descarga de CV
+
+---
+
+## Diseño responsive
+
+El sitio está diseñado para adaptarse a computadoras, tablets y dispositivos móviles.
+
+---
+
+## Instalación
+
+Clona el repositorio:
+
+```bash
+git clone https://github.com/jhonas321/Portafolio.git
+```
+
+Entra al proyecto:
+
+```bash
+cd Portafolio
+```
+
+Instala las dependencias:
+
+```bash
+npm install
+```
+
+Ejecuta el proyecto en modo desarrollo:
+
+```bash
+npm run dev
+```
+
+Para generar la versión de producción:
+
+```bash
+npm run build
+```
+
+---
+
+## Despliegue
+
+El portafolio está desplegado en **Netlify**.
+
+https://portafolio-jhona.netlify.app/
+
+---
+
+## Contacto
+
+**Jonathan Choque Arancibia**
+
+- GitHub: https://github.com/jhonas321
+- LinkedIn: https://www.linkedin.com/in/jonathan-choque-a30724358/
+- Correo: tayguerjc@gmail.com
+- Ubicación: Cochabamba, Bolivia
+
+---
+
+© 2026 Jonathan Choque Arancibia

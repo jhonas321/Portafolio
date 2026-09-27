@@ -8,11 +8,18 @@ function Skills() {
   return (
     <section id="skills" className="skills section">
       <div className="container">
-        <SectionTitle title="Habilidades" subtitle="Tecnologías" />
+        <SectionTitle
+          title="Habilidades"
+          subtitle="Tecnologías y herramientas"
+        />
 
         <div className="skills__grid">
           {skills.map((skill) => (
-            <SkillCard key={skill.id} name={skill.name} />
+            <SkillCard
+              key={skill.id}
+              name={skill.name}
+              icon={skill.icon}
+            />
           ))}
         </div>
       </div>

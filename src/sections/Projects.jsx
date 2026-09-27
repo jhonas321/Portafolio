@@ -8,7 +8,10 @@ function Projects() {
   return (
     <section id="projects" className="projects section">
       <div className="container">
-        <SectionTitle title="Proyectos" subtitle="Mi trabajo" />
+        <SectionTitle
+          title="Proyectos"
+          subtitle="Mi trabajo"
+        />
 
         <div className="projects__grid">
           {projects.map((project) => (
@@ -16,7 +19,6 @@ function Projects() {
               key={project.id}
               title={project.title}
               description={project.description}
-              technologies={project.technologies}
             />
           ))}
         </div>
